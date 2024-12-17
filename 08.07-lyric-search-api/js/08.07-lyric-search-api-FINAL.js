@@ -1,4 +1,4 @@
-// Lesson 09.05 - PROG
+// Lesson 08.07 - PROG
 // Lyric Search API
 
 // Get the DOM elements

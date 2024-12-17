@@ -1,4 +1,4 @@
-// Lesson 09.05 - Lyric Search API
+// Lesson 08.07 - Lyric Search API
 
 // Get the DOM elements
 
