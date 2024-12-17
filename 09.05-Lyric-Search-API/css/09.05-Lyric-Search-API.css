@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #223;
+  color: #fed;
+  background: 
+    linear-gradient(#00000055, #00000055),
+    url(../images/rock-n-roll-bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+section {
+    border: 5px solid red;
+    margin: 30px auto;
+    width: 700px;
+    border-radius: 25px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: white;
+}
+
+h2 {
+    margin: 50px;
+    font-size: 1.75rem;
+    text-align: center;
+}
+
+input, label {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+input {
+    color: blueviolet;
+    border: 5px solid red;
+    border-radius: 20px;
+}
+
+input:focus {
+    outline-width: 0;
+}
+
+
+label {
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.input-div {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.input-div span {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.search-input {
+  width: 100%;
+  margin-top: 5px;
+  height: 40px;
+  border-radius: 20px;
+  padding-left: 15px;
+  font-size: 25px;
+}
+
+button {
+  padding: 10px 15px;
+  width: 150px;
+  font-size: 1.25rem;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-left: 200px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+    background-color: violet;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.input-error {
+  border: 1px solid red;
+}
+
+.error-message {
+  color: red;
+  font-size: 16px;
+}
+
+.error {
+  display: inline-block;
+  margin-top: 3px;
+  color: red;
+  font-size: 12px !important;
+}
+
+textarea {
+  margin: 25px auto;
+  border: 5px solid red;
+  width: 600px;
+  height: 350px;
+  padding: 30px;
+  display: block;
+  font-size: 1rem;
+  overflow-y: auto;
+  border-radius: 25px;
+}
