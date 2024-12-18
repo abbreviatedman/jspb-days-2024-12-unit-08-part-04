@@ -107,7 +107,6 @@
 // 30. Declare the evalAnswerChoice() function:
 
     // 31. Each choice requires tries variable to be incremented
-    tries++;
 
         // 33. if the answer is correct, make the button green w white text
         
